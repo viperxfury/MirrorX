@@ -18,8 +18,8 @@ class _BotCommands:
         self.HelpCommand = 'plzhelp'
         self.LogCommand = 'log'
         self.CloneCommand = "clone"
-        self.WatchCommand = 'watch'
-        self.TarWatchCommand = 'tarwatch'
+        self.WatchCommand = 'dl'
+        self.TarWatchCommand = 'dlzip'
         self.deleteCommand = 'del'
 
 BotCommands = _BotCommands()
