@@ -1,6 +1,6 @@
 class _BotCommands:
     def __init__(self):
-        self.StartCommand = 'plzstart'
+        self.StartCommand = 'start'
         self.MirrorCommand = 'mir'
         self.UnzipMirrorCommand = 'unzip'
         self.TarMirrorCommand = 'zip'
@@ -15,9 +15,9 @@ class _BotCommands:
         self.PingCommand = 'ping'
         self.RestartCommand = 'restart'
         self.StatsCommand = 'stats'
-        self.HelpCommand = 'plzhelp'
+        self.HelpCommand = 'plshelp'
         self.LogCommand = 'log'
-        self.CloneCommand = "clone"
+        self.CloneCommand = "copy"
         self.WatchCommand = 'dl'
         self.TarWatchCommand = 'dlzip'
         self.deleteCommand = 'del'
